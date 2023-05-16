@@ -1,34 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html-1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/portfolio.css">
 </head>
+
 <body>
-    <h1>
-        hello world
-    </h1>
-    <section>
-        <h3>Something Changed!!!</h3>
-    </section>
-    <header>
-        <ul>
-            <li><a href="#">link1</a></li>
-            <li><a href="#">link1</a></li>
-            <li><a href="#">link1</a></li>
-            <li><a href="#">link1</a></li>
-            <li><a href="#">link1</a></li>
-        </ul>
-    </header>
-    <section class="slider-area">
-        <!-- <div class="container"> -->
-            <div class="slider">
-                <img src="./images/img01.jpg" alt="images">
+    <header class="header">
+        <div class="header_ring">
+            <nav class="nav_spacing">
+                <h2 class="nav__title">MH<span class="txt__primary">D</span>Y</h2>
+                <ul>
+                    <li>
+                        <a href="#">about me</a>
+                    </li>
+                    <li>
+                        <a href="#">blogs</a>
+                    </li>
+                    <li class="btn__primary">
+                        <a href="#">learn more</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- header banner  -->
+            <div class="banner">
+                <div>
+                    <h3 class="banner__subtitle">
+                        Hi , I am
+                    </h3>
+                    <h1 class="banner__title">
+                        Mhdy Hasan
+                    </h1>
+                    <p class="banner__desc">
+                        Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to
+                        society
+                        behaved moments
+                    </p>
+                    <button class="btn__primary">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </button>
+                </div>
+                <img src="./images/hardy.png" alt="images">
             </div>
-        <!-- </div> -->
-    </section>
+        </div>
+    </header>
+    <main>
+        <!-- about section  -->
+        <section class="section">
+            <div class="section__title">
+                About Me
+            </div>
+            <div class="section__description">
+                I, m a designer & developer with a passion for web design. I enjoy
+                developing simple, clean and slick websites that provide real value to the end user. Thousands of
+                clients have procured exceptional resulfs while working with me. Delivering work within time and
+                budget which meets clients requirements in our mata.
+            </div>
+            <div class="about__info__container">
+                <div class="about__info">
+                    <div class="info__title">
+                        name :
+                    </div>
+                    <div class="info__description">
+                        mhdy hasan
+                    </div>
+                </div>
+                <div class="about__info">
+                    <div class="info__title">
+                        email :
+                    </div>
+                    <div class="info__description">
+                        mhdyhasan@gmail.com
+                    </div>
+                </div>
+                <div class="about__info">
+                    <div class="info__title">
+                        speciality :
+                    </div>
+                    <div class="info__description">
+                        front end developer
+                    </div>
+                </div>
+                <div class="about__info">
+                    <div class="info__title">
+                        location :
+                    </div>
+                    <div class="info__description">
+                        joypurhat
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about section  -->
+
+        <!-- what i do  -->
+        <section class="section__noside__padding">
+            <div class="section__title">
+                what i do
+            </div>
+            <div class="skill__container">
+                <div class="skill">
+                    <img src="./images/icons/js.png" alt="skill_img">
+                    <div class="skill__title">
+                        Vanilla JavaScript
+                    </div>
+                    <div class="skill__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium animi quod, debitis
+                        doloremque atque eligendi facere ullam deleniti vero eos!
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/icons/react.png" alt="skill_img">
+                    <div class="skill__title">
+                        react
+                    </div>
+                    <div class="skill__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium animi quod, debitis
+                        doloremque atque eligendi facere ullam deleniti vero eos!
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/icons/mongo.png" alt="skill_img">
+                    <div class="skill__title">
+                        mongo db
+                    </div>
+                    <div class="skill__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium animi quod, debitis
+                        doloremque atque eligendi facere ullam deleniti vero eos!
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/icons/nodejs.png" alt="skill_img">
+                    <div class="skill__title">
+                        node js
+                    </div>
+                    <div class="skill__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium animi quod, debitis
+                        doloremque atque eligendi facere ullam deleniti vero eos!
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of what i do  -->
+
+        <!-- resume section  -->
+        <div class="resume__section">
+            <div class="section__title">
+                a summery of my resume
+            </div>
+            <div class="resume__container">
+                <div class="resume__education">
+                    <div class="resume__header">
+                        my education
+                    </div>
+                    <div class="resume__body">
+                        <div class="resume_title">
+                            masters in cse
+                        </div>
+                        <div class="resume__sub__title">
+                            harverd university /2015-2017
+                        </div>
+                        <div class="resume__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat voluptate velit quam cum
+                            maxime rem consectetur! Ipsam, nihil quas. Distinctio eius harum nemo vel.
+                        </div>
+                    </div>
+                    <div class="resume__body">
+                        <div class="resume_title">
+                            masters in cse
+                        </div>
+                        <div class="resume__sub__title">
+                            harverd university /2015-2017
+                        </div>
+                        <div class="resume__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat voluptate velit quam cum
+                            maxime rem consectetur! Ipsam, nihil quas. Distinctio eius harum nemo vel.
+                        </div>
+                    </div>
+                    <div class="resume__body">
+                        <div class="resume_title">
+                            masters in cse
+                        </div>
+                        <div class="resume__sub__title">
+                            harverd university /2015-2017
+                        </div>
+                        <div class="resume__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat voluptate velit quam cum
+                            maxime rem consectetur! Ipsam, nihil quas. Distinctio eius harum nemo vel.
+                        </div>
+                    </div>
+                </div>
+                <div class="resume__exprerience">
+                    <div class="resume__header">
+                        my education
+                    </div>
+                    <div class="resume__body">
+                        <div class="resume_title">
+                            masters in cse
+                        </div>
+                        <div class="resume__sub__title">
+                            harverd university /2015-2017
+                        </div>
+                        <div class="resume__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat voluptate velit quam cum
+                            maxime rem consectetur! Ipsam, nihil quas. Distinctio eius harum nemo vel.
+                        </div>
+                    </div>
+                    <div class="resume__body">
+                        <div class="resume_title">
+                            masters in cse
+                        </div>
+                        <div class="resume__sub__title">
+                            harverd university /2015-2017
+                        </div>
+                        <div class="resume__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat voluptate velit quam cum
+                            maxime rem consectetur! Ipsam, nihil quas. Distinctio eius harum nemo vel.
+                        </div>
+                    </div>
+                    <div class="resume__body">
+                        <div class="resume_title">
+                            masters in cse
+                        </div>
+                        <div class="resume__sub__title">
+                            harverd university /2015-2017
+                        </div>
+                        <div class="resume__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat voluptate velit quam cum
+                            maxime rem consectetur! Ipsam, nihil quas. Distinctio eius harum nemo vel.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume__button">
+                <button class="btn__primary">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </button>
+            </div>
+        </div>
+        <!-- end of resume section  -->
+
+        <!-- contact section  -->
+        <section class="section">
+            <div class="contact__section">
+                <div class="contact__info">
+                    <div class="contact__title">
+                        Let's connect
+                    </div>
+                    <div class="contact__desc">
+                        Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00
+                        P.M ET, Monday through Friday.
+                    </div>
+                    <div class="contact__icon">
+                        <a href="">
+                            <img src="images/icons/facebook.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/icons/twitter.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/icons/insta.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <div class="contact__title">
+                        let's message me
+                    </div>
+                    <div class="contact__form">
+                        <form action="post">
+                            <div class="single__input">
+                                <input type="text" placeholder="name">
+                            </div>
+                            <div class="single__input">
+                                <input type="email" placeholder="email">
+                            </div>
+                            <div class="single__input">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                            </div>
+                            <div class="single__input">
+                                <button class="btn__primary">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of contact section  -->
+
+    </main>
 </body>
+
 </html>
